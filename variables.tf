@@ -1,4 +1,4 @@
-variable "datapipeline01-372314" {
+variable "project_id" {
   type        = string
   description = "The Google Cloud Project Id"
 }
