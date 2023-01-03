@@ -39,7 +39,7 @@ module "bigquery-dataset-gasolina" {
           project  = "gasolina"
         },
         deletion_protection = true
-        schema = file("C:/Users/ROBERTO/Desktop/Pipeline-stack-GCP/pipeline-gcp/bigquery/schema/gasolina_brasil/tb_historico_combustivel_brasil.json")
+        schema = file("r/Users/ROBERTO/Desktop/Pipeline-stack-GCP/pipeline-gcp/bigquery/schema/gasolina_brasil/tb_historico_combustivel_brasil.json")
     }
   ]
 }
